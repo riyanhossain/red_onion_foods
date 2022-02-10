@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Col, Row, Navbar, Container,Nav } from 'react-bootstrap';
 import logo from '../../images/logo2.png'
-import './Header.css'
+import '../Header/Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 

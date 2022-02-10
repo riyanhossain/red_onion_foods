@@ -1,0 +1,23 @@
+.cardGrp{
+    display: grid;
+     grid: repeat(2,450px) / auto-flow 1fr;
+     margin: auto;
+}
+@media screen and (max-width:660px){
+    .cardGrp{
+        display: grid;
+         grid: repeat(6,450px) / auto-flow 1fr;
+         margin: auto;
+    }
+    
+}
+/* @media screen and (max-width:1280px){
+    .cardGrp{
+        display: grid;
+         grid: repeat(3,450px) / auto-flow 1fr;
+         margin: auto;
+         margin-left: 15%;
+         margin-right: 15%;
+    }
+    
+} */
