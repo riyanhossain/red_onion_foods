@@ -48,6 +48,7 @@
     background-color: rgb(218, 42, 42) !important;
     margin-left: -10% !important;
     padding: .2rem !important;
+    font-weight: 300 !important;
 }
 .head h1{
     font-weight: 400;

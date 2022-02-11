@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button, Form, FormControl } from 'react-bootstrap'
 import './Header.css'
-import bg from '../../images/bannerbackground.png'
 
 function Head() {
   return (
@@ -16,7 +15,7 @@ function Head() {
               className="me-0 SearchBar"
               aria-label="Search"
             />
-            <Button variant="danger" className='SearchBtn'>Sign up</Button>
+            <Button variant="danger" className='SearchBtn'>Search</Button>
           </Form>
         </div>
 

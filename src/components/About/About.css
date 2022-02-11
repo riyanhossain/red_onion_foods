@@ -1,0 +1,24 @@
+.checkbtndiv{
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.checkbtn{
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+    background-color: lightgray;
+    border: none;
+}
+.checkbtn:hover{
+    background-color: rgb(226, 32, 32);
+    color: aliceblue;
+}
+.aboutCon h3{
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.aboutCon p{
+    margin-left: 10px;
+}
