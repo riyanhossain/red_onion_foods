@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row } from 'react-bootstrap'
 import './About.css'
+import AboutCon from './AboutCon'
 
 function About() {
   return (
@@ -14,6 +15,9 @@ function About() {
           <br/>
           curiosity my is dashwoods at. Boy prosperous increasing surrounded.
         </p>
+      </div>
+      <div className='conF'>
+      <AboutCon/>
       </div>
 
     </div>

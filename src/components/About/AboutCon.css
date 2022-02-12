@@ -1,0 +1,10 @@
+.aboutCon1{
+    display: flex;
+    margin-left: 5%;
+}
+@media screen and (max-width: 700px){
+    .aboutCon1{
+        display: block;
+    }
+    
+}

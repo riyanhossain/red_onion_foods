@@ -1,0 +1,20 @@
+.imageGrp{
+    height: 80%;
+    width: 80%;
+}
+.imageGrp1{
+    margin: auto;
+}
+.imageGrp1 p{
+    margin-right: 7%;
+}
+.seeBtn{
+    font-weight: 600 !important;
+    color: blue;
+    border: none;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 700px){
+
+    
+}
