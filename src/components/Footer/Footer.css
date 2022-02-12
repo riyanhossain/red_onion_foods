@@ -1,3 +1,44 @@
-.Footer{
+.Container{
     background-color: black;
+}
+.logo2{
+    height: 40px;
+    width: 25%;
+    margin-top: 10%;
+}
+.policy a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-weight: 350;
+}
+.footCon{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.listFoot li{
+    list-style-type: none;
+    color:  whitesmoke;
+}
+.resFoot{
+    display: flex;
+}
+@media screen and (max-width:700px) {
+    .resFoot{
+        display: flex;
+    }
+    .resFoot p{
+        margin-top: 5px;
+        font-size: 12px !important;
+    }
+    .resFoot a{
+        font-size: 12px;
+    }
+    .policy{
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
 }
