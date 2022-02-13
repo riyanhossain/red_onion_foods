@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/Navbar/NavBar';
+import Footer from './components/Footer/Footer';
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,80 @@
+.imageCon{
+    height: 50% !important;
+    margin-left: 15%;
+}
+.viewItem{
+    margin-top: 6%;
+    text-align: left;
+    margin-bottom: 20px !important;
+}
+.addBtn{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(248, 7, 67);
+    width: 25%;
+    padding: 6px;
+    color: white;
+    margin-top: 20px;
+}
+.Row p{
+    margin-top: 50px;
+}
+.Row h3{
+    margin-top: 20px;
+}
+.stepper{
+    display: flex;
+}
+.stepper button{
+    background-color: white;
+    border-radius: 60%;
+    border: none;
+    background-color: aliceblue;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+
+}
+.btn1{
+    margin-left: 30px;
+    font-size: 24px;
+}
+.btn2{
+    font-size: 24px;
+}
+.btn2:hover,.btn1:hover{
+    color: red;
+}
+.col1,.col2{
+    height: 500px;
+}
+.caroImage{
+    height: 100px !important;
+}
+.carousel-inner{
+width: 300px !important;
+}
+
+
+@media screen and (max-width:700px){
+    :root{
+        --grid:block;
+    }
+    .Row{
+        flex-direction: column-reverse;
+    }
+    .col1,.col2{
+        width: 200% !important;
+    }
+    .col2{
+       display: flex;
+    }
+    .imageCon{
+        height: 300px !important;
+        margin: auto !important;
+    }
+    .cardGrp{
+        display: var(--grid);
+    }
+    
+}
