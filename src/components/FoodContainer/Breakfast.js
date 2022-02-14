@@ -24,9 +24,9 @@ function Breakfast() {
   return (
     <div className='cardGrp'>
       {
-         view?<ViewFoodItem im={image}/>:
+         view?<ViewFoodItem im={image} images={images}/>:
          images.map(i=>
-          <Caard image={i} setView={setView} setImage={setImage}></Caard>)
+          <Caard image={i} setView={setView} setImage={setImage} ></Caard>)
       }
     </div>
   )
